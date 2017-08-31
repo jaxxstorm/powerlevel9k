@@ -288,7 +288,7 @@ prompt_anaconda() {
 # Kubernetes
 prompt_kubernetes() {
   local kubernetes_context=$(kubectl config current-context)
-  "$1_prompt_segment" "$0" "$2" green white "$kubernetes_context" 'KUBE_ICON'
+  "$1_prompt_segment" "$0" "$2" green white "$kubernetes_context" 'KUBERNETES_ICON'
 }
 
 # AWS Profile
